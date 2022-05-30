@@ -52,7 +52,7 @@ class Strings {
   static String dueDate = "Due Date";
   static String address = "Address";
   static String pincode = "Pincode";
-  static String healthStatus = "Health Status";
+  static String Status = "Health Status";
 
   ///Titles
   static String screening = "Screening";

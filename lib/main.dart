@@ -3,6 +3,12 @@ import 'package:allobabyv2/modules/otp/otp_view.dart';
 import 'package:allobabyv2/modules/phone/phone_view.dart';
 import 'package:flutter/material.dart';
 
+import 'modules/home/home_view.dart';
+import 'modules/sinus/sinus_view.dart';
+import 'modules/soredtounge/soredtounge.dart';
+import 'modules/vomiting/vomiting.dart';
+import 'modules/wheezing/wheezing.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -17,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Otp(),
+      home: HomeScreen(),
     );
   }
 }
