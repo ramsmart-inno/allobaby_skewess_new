@@ -4,6 +4,8 @@ import 'package:allobabyv2/modules/phone/phone_view.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import 'modules/bookAppoinment/bookAppoinment.dart';
+import 'modules/bookAppoinment/doctorList.dart';
 import 'modules/home/home_view.dart';
 
 import 'modules/setting_page/edit_profile_view.dart';
