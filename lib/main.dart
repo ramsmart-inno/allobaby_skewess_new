@@ -8,6 +8,7 @@ import 'modules/bookAppoinment/bookAppoinment.dart';
 import 'modules/bookAppoinment/doctorList.dart';
 import 'modules/home/home_view.dart';
 
+import 'modules/home/pregnancyStatus.dart';
 import 'modules/setting_page/edit_profile_view.dart';
 import 'modules/setting_page/setting_view.dart';
 import 'modules/sinus/sinus_view.dart';
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Setting_page(),
+      home: BookAppoinment(),
     );
   }
 }
