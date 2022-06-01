@@ -5,6 +5,10 @@ import '../../constants/colors.dart';
 import '../../constants/strings.dart';
 import '../../constants/styles.dart';
 import 'edit_profile_view.dart';
+import 'language_view.dart';
+import 'notification_view.dart';
+import 'privacy_view.dart';
+import 'terms&conditions_view.dart';
 
 class Setting_page extends StatelessWidget {
   const Setting_page({Key? key}) : super(key: key);
@@ -194,7 +198,9 @@ class Setting_page extends StatelessWidget {
                       ),
                     ),
                     ListTile(
-                      onTap: (() {}),
+                      onTap: (() {
+                        Get.to(Notificatons());
+                      }),
                       leading: Icon(Icons.notifications, color: PrimaryColor),
                       title: Text(
                         Strings.notifications,
@@ -207,7 +213,9 @@ class Setting_page extends StatelessWidget {
                       ),
                     ),
                     ListTile(
-                      onTap: (() {}),
+                      onTap: (() {
+                        Get.to(Language());
+                      }),
                       leading:
                           Icon(Icons.language_outlined, color: PrimaryColor),
                       title: Text(
@@ -221,7 +229,9 @@ class Setting_page extends StatelessWidget {
                       ),
                     ),
                     ListTile(
-                      onTap: (() {}),
+                      onTap: (() {
+                        Get.to(TermsAndConditions());
+                      }),
                       leading: Icon(Icons.note_alt, color: PrimaryColor),
                       title: Text(
                         Strings.termsAndConditions,
@@ -234,7 +244,9 @@ class Setting_page extends StatelessWidget {
                       ),
                     ),
                     ListTile(
-                      onTap: (() {}),
+                      onTap: (() {
+                        Get.to(PrivacyPolicy());
+                      }),
                       leading:
                           Icon(Icons.privacy_tip_outlined, color: PrimaryColor),
                       title: Text(

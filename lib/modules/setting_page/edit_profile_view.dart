@@ -118,8 +118,18 @@ class Edit_profile extends StatelessWidget {
                     Container(
                       width: size.width * 0.90,
                       child: TextFormField(
+                        cursorColor: Black,
                         style: TextStylez.textStyleSmall.copyWith(fontSize: 20),
                         decoration: new InputDecoration(
+                          labelStyle: TextStyle(color: Black),
+                          focusedBorder: OutlineInputBorder(
+                            borderSide: BorderSide(color: Colors.grey),
+                            borderRadius: BorderRadius.circular(10.0),
+                          ),
+                          enabledBorder: OutlineInputBorder(
+                            borderSide: BorderSide(color: Colors.grey),
+                            borderRadius: BorderRadius.circular(10.0),
+                          ),
                           labelText: "Name",
                           fillColor: Colors.white,
                           border: new OutlineInputBorder(
@@ -145,8 +155,18 @@ class Edit_profile extends StatelessWidget {
                         width: 150,
                         // color: Colors.orange,
                         child: TextFormField(
+                          cursorColor: Black,
                           decoration: new InputDecoration(
-                            suffixIcon: Icon(Icons.arrow_downward_outlined),
+                            labelStyle: TextStyle(color: Black),
+                            focusedBorder: OutlineInputBorder(
+                              borderSide: BorderSide(color: Colors.grey),
+                              borderRadius: BorderRadius.circular(10.0),
+                            ),
+                            enabledBorder: OutlineInputBorder(
+                              borderSide: BorderSide(color: Colors.grey),
+                              borderRadius: BorderRadius.circular(10.0),
+                            ),
+                            suffixIcon: Icon(Icons.arrow_drop_down_outlined),
                             labelText: Strings.gender,
                             fillColor: Colors.white,
                             border: new OutlineInputBorder(
@@ -160,8 +180,18 @@ class Edit_profile extends StatelessWidget {
                         width: 150,
                         //color: Colors.orange,
                         child: TextFormField(
+                          cursorColor: Black,
                           decoration: new InputDecoration(
-                            suffixIcon: Icon(Icons.arrow_downward_outlined),
+                            labelStyle: TextStyle(color: Black),
+                            focusedBorder: OutlineInputBorder(
+                              borderSide: BorderSide(color: Colors.grey),
+                              borderRadius: BorderRadius.circular(10.0),
+                            ),
+                            enabledBorder: OutlineInputBorder(
+                              borderSide: BorderSide(color: Colors.grey),
+                              borderRadius: BorderRadius.circular(10.0),
+                            ),
+                            suffixIcon: Icon(Icons.arrow_drop_down_outlined),
                             labelText: Strings.bloodGroup,
                             fillColor: Colors.white,
                             border: new OutlineInputBorder(
@@ -180,8 +210,18 @@ class Edit_profile extends StatelessWidget {
               Container(
                 width: size.width * 0.90,
                 child: TextFormField(
+                  cursorColor: Black,
                   style: TextStylez.textStyleSmall.copyWith(fontSize: 20),
                   decoration: new InputDecoration(
+                    labelStyle: TextStyle(color: Black),
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.grey),
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
+                    enabledBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.grey),
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
                     suffixIcon: Icon(Icons.date_range_outlined),
                     labelText: Strings.dateOfBirth,
                     fillColor: Colors.white,
@@ -212,9 +252,19 @@ class Edit_profile extends StatelessWidget {
                     Container(
                       width: size.width * 0.90,
                       child: TextFormField(
+                        cursorColor: Black,
                         style: TextStylez.textStyleSmall.copyWith(fontSize: 20),
                         decoration: new InputDecoration(
-                          suffixIcon: Icon(Icons.arrow_downward_outlined),
+                          labelStyle: TextStyle(color: Black),
+                          focusedBorder: OutlineInputBorder(
+                            borderSide: BorderSide(color: Colors.grey),
+                            borderRadius: BorderRadius.circular(10.0),
+                          ),
+                          enabledBorder: OutlineInputBorder(
+                            borderSide: BorderSide(color: Colors.grey),
+                            borderRadius: BorderRadius.circular(10.0),
+                          ),
+                          suffixIcon: Icon(Icons.arrow_drop_down_outlined),
                           labelText: Strings.pregnancyStatus,
                           fillColor: Colors.white,
                           border: new OutlineInputBorder(
@@ -231,8 +281,18 @@ class Edit_profile extends StatelessWidget {
                     Container(
                       width: size.width * 0.90,
                       child: TextFormField(
+                        cursorColor: Black,
                         style: TextStylez.textStyleSmall.copyWith(fontSize: 20),
                         decoration: new InputDecoration(
+                          labelStyle: TextStyle(color: Black),
+                          focusedBorder: OutlineInputBorder(
+                            borderSide: BorderSide(color: Colors.grey),
+                            borderRadius: BorderRadius.circular(10.0),
+                          ),
+                          enabledBorder: OutlineInputBorder(
+                            borderSide: BorderSide(color: Colors.grey),
+                            borderRadius: BorderRadius.circular(10.0),
+                          ),
                           suffixIcon: Icon(Icons.date_range_outlined),
                           labelText: Strings.cycleDate,
                           fillColor: Colors.white,
@@ -250,8 +310,18 @@ class Edit_profile extends StatelessWidget {
                     Container(
                       width: size.width * 0.90,
                       child: TextFormField(
+                        cursorColor: Black,
                         style: TextStylez.textStyleSmall.copyWith(fontSize: 20),
                         decoration: new InputDecoration(
+                          labelStyle: TextStyle(color: Black),
+                          focusedBorder: OutlineInputBorder(
+                            borderSide: BorderSide(color: Colors.grey),
+                            borderRadius: BorderRadius.circular(10.0),
+                          ),
+                          enabledBorder: OutlineInputBorder(
+                            borderSide: BorderSide(color: Colors.grey),
+                            borderRadius: BorderRadius.circular(10.0),
+                          ),
                           suffixIcon: Icon(Icons.date_range_outlined),
                           labelText: Strings.dueDate,
                           fillColor: Colors.white,
@@ -269,9 +339,19 @@ class Edit_profile extends StatelessWidget {
                     Container(
                       width: size.width * 0.90,
                       child: TextFormField(
+                        cursorColor: Black,
                         style: TextStylez.textStyleSmall.copyWith(fontSize: 20),
                         decoration: new InputDecoration(
-                          suffixIcon: Icon(Icons.arrow_downward_outlined),
+                          labelStyle: TextStyle(color: Black),
+                          focusedBorder: OutlineInputBorder(
+                            borderSide: BorderSide(color: Colors.grey),
+                            borderRadius: BorderRadius.circular(10.0),
+                          ),
+                          enabledBorder: OutlineInputBorder(
+                            borderSide: BorderSide(color: Colors.grey),
+                            borderRadius: BorderRadius.circular(10.0),
+                          ),
+                          suffixIcon: Icon(Icons.arrow_drop_down_outlined),
                           labelText: 'Health Status',
                           fillColor: Colors.white,
                           border: new OutlineInputBorder(
@@ -305,8 +385,18 @@ class Edit_profile extends StatelessWidget {
                     Container(
                       width: size.width * 0.90,
                       child: TextFormField(
+                        cursorColor: Black,
                         style: TextStylez.textStyleSmall.copyWith(fontSize: 20),
                         decoration: new InputDecoration(
+                          labelStyle: TextStyle(color: Black),
+                          focusedBorder: OutlineInputBorder(
+                            borderSide: BorderSide(color: Colors.grey),
+                            borderRadius: BorderRadius.circular(10.0),
+                          ),
+                          enabledBorder: OutlineInputBorder(
+                            borderSide: BorderSide(color: Colors.grey),
+                            borderRadius: BorderRadius.circular(10.0),
+                          ),
                           labelText: "Name",
                           fillColor: Colors.white,
                           border: new OutlineInputBorder(
@@ -329,9 +419,19 @@ class Edit_profile extends StatelessWidget {
                               width: 150,
                               // color: Colors.orange,
                               child: TextFormField(
+                                cursorColor: Black,
                                 decoration: new InputDecoration(
+                                  labelStyle: TextStyle(color: Black),
+                                  focusedBorder: OutlineInputBorder(
+                                    borderSide: BorderSide(color: Colors.grey),
+                                    borderRadius: BorderRadius.circular(10.0),
+                                  ),
+                                  enabledBorder: OutlineInputBorder(
+                                    borderSide: BorderSide(color: Colors.grey),
+                                    borderRadius: BorderRadius.circular(10.0),
+                                  ),
                                   suffixIcon:
-                                      Icon(Icons.arrow_downward_outlined),
+                                      Icon(Icons.arrow_drop_down_outlined),
                                   labelText: Strings.gender,
                                   fillColor: Colors.white,
                                   border: new OutlineInputBorder(
@@ -346,9 +446,21 @@ class Edit_profile extends StatelessWidget {
                               width: 150,
                               //color: Colors.orange,
                               child: TextFormField(
+                                cursorColor: Black,
                                 decoration: new InputDecoration(
-                                  suffixIcon:
-                                      Icon(Icons.arrow_downward_outlined),
+                                  labelStyle: TextStyle(color: Black),
+                                  focusedBorder: OutlineInputBorder(
+                                    borderSide: BorderSide(color: Colors.grey),
+                                    borderRadius: BorderRadius.circular(10.0),
+                                  ),
+                                  enabledBorder: OutlineInputBorder(
+                                    borderSide: BorderSide(color: Colors.grey),
+                                    borderRadius: BorderRadius.circular(10.0),
+                                  ),
+                                  suffixIcon: Icon(
+                                    Icons.arrow_drop_down_outlined,
+                                    size: 30,
+                                  ),
                                   labelText: Strings.bloodGroup,
                                   fillColor: Colors.white,
                                   border: new OutlineInputBorder(
@@ -368,8 +480,18 @@ class Edit_profile extends StatelessWidget {
                     Container(
                       width: size.width * 0.90,
                       child: TextFormField(
+                        cursorColor: Black,
                         style: TextStylez.textStyleSmall.copyWith(fontSize: 20),
                         decoration: new InputDecoration(
+                          labelStyle: TextStyle(color: Black),
+                          focusedBorder: OutlineInputBorder(
+                            borderSide: BorderSide(color: Colors.grey),
+                            borderRadius: BorderRadius.circular(10.0),
+                          ),
+                          enabledBorder: OutlineInputBorder(
+                            borderSide: BorderSide(color: Colors.grey),
+                            borderRadius: BorderRadius.circular(10.0),
+                          ),
                           suffixIcon: Icon(Icons.date_range_outlined),
                           labelText: Strings.dateOfBirth,
                           fillColor: Colors.white,
@@ -401,9 +523,19 @@ class Edit_profile extends StatelessWidget {
                           Container(
                             width: size.width * 0.90,
                             child: TextFormField(
+                              cursorColor: Black,
                               style: TextStylez.textStyleSmall
                                   .copyWith(fontSize: 20),
                               decoration: new InputDecoration(
+                                labelStyle: TextStyle(color: Black),
+                                focusedBorder: OutlineInputBorder(
+                                  borderSide: BorderSide(color: Colors.grey),
+                                  borderRadius: BorderRadius.circular(10.0),
+                                ),
+                                enabledBorder: OutlineInputBorder(
+                                  borderSide: BorderSide(color: Colors.grey),
+                                  borderRadius: BorderRadius.circular(10.0),
+                                ),
                                 labelText: Strings.address,
                                 fillColor: Colors.white,
                                 border: new OutlineInputBorder(
@@ -420,10 +552,21 @@ class Edit_profile extends StatelessWidget {
                           Container(
                             width: size.width * 0.90,
                             child: TextFormField(
+                              cursorColor: Black,
                               style: TextStylez.textStyleSmall
                                   .copyWith(fontSize: 20),
                               decoration: new InputDecoration(
+                                focusedBorder: OutlineInputBorder(
+                                  borderSide: BorderSide(color: Colors.grey),
+                                  borderRadius: BorderRadius.circular(10.0),
+                                ),
+                                enabledBorder: OutlineInputBorder(
+                                  borderSide: BorderSide(color: Colors.grey),
+                                  borderRadius: BorderRadius.circular(10.0),
+                                ),
                                 labelText: Strings.pincode,
+                                labelStyle: TextStyle(color: Black),
+
                                 fillColor: Colors.white,
                                 border: new OutlineInputBorder(
                                   borderRadius: new BorderRadius.circular(5.0),
@@ -439,6 +582,51 @@ class Edit_profile extends StatelessWidget {
                   ],
                 ),
               ),
+              Container(
+                width: size.width * 0.98,
+                child: Column(children: [
+                  ListTile(
+                    trailing: Icon(
+                      Icons.navigate_next_outlined,
+                      size: 30,
+                    ),
+                    title: Text(
+                      Strings.updatedLocation,
+                      style: TextStylez.textStyleSmall.copyWith(fontSize: 18),
+                    ),
+                  ),
+                  ListTile(
+                    trailing: Icon(
+                      Icons.navigate_next_outlined,
+                      size: 30,
+                    ),
+                    title: Text(
+                      Strings.medicalHistory,
+                      style: TextStylez.textStyleSmall.copyWith(fontSize: 18),
+                    ),
+                  ),
+                  ListTile(
+                    trailing: Icon(
+                      Icons.navigate_next_outlined,
+                      size: 30,
+                    ),
+                    title: Text(
+                      Strings.familyMedicalHistory,
+                      style: TextStylez.textStyleSmall.copyWith(fontSize: 18),
+                    ),
+                  ),
+                  ListTile(
+                    trailing: Icon(
+                      Icons.navigate_next_outlined,
+                      size: 30,
+                    ),
+                    title: Text(
+                      Strings.pregnencyHistory,
+                      style: TextStylez.textStyleSmall.copyWith(fontSize: 18),
+                    ),
+                  )
+                ]),
+              )
             ],
           ),
         ),
