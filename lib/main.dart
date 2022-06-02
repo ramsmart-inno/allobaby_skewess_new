@@ -1,3 +1,4 @@
+import 'package:allobabyv2/modules/home/service/service.dart';
 import 'package:allobabyv2/modules/login/login_view.dart';
 import 'package:allobabyv2/modules/otp/otp_view.dart';
 import 'package:allobabyv2/modules/phone/phone_view.dart';
@@ -6,6 +7,7 @@ import 'package:get/get.dart';
 
 import 'modules/bookAppoinment/bookAppoinment.dart';
 import 'modules/bookAppoinment/doctorList.dart';
+import 'modules/home/chat/chat.dart';
 import 'modules/home/checkup/checkupDetails_view.dart';
 import 'modules/home/checkup/checkupList_view.dart';
 import 'modules/home/home_view.dart';
@@ -17,6 +19,7 @@ import 'modules/setting_page/notification_view.dart';
 import 'modules/setting_page/setting_view.dart';
 import 'modules/sinus/sinus_view.dart';
 import 'modules/soredtounge/soredtounge.dart';
+import 'modules/vitalsDetails/vitalsDetails.dart';
 import 'modules/vomiting/vomiting.dart';
 import 'modules/wheezing/wheezing.dart';
 
@@ -34,7 +37,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: CheckupDetails(),
+      home: VitalsDetails(),
     );
   }
 }
