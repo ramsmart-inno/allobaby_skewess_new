@@ -781,7 +781,7 @@ class CheckupDetails extends StatelessWidget {
                                       Container(
                                         //width: size.width * 0.85,
                                         //color: Colors.orange,
-                                        child: Text(Strings.ecgReport,
+                                        child: Text(Strings.scanReport,
                                             style: TextStylez.textStyleSmall
                                                 .copyWith(
                                                     fontSize: 15,

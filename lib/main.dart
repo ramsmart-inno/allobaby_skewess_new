@@ -6,6 +6,9 @@ import 'package:get/get.dart';
 
 import 'modules/bookAppoinment/bookAppoinment.dart';
 import 'modules/bookAppoinment/doctorList.dart';
+import 'modules/community/com-Invite_view.dart';
+import 'modules/community/com-mom.dart';
+
 import 'modules/home/checkup/checkupDetails_view.dart';
 import 'modules/home/checkup/checkupList_view.dart';
 import 'modules/home/home_view.dart';
@@ -17,6 +20,7 @@ import 'modules/setting_page/notification_view.dart';
 import 'modules/setting_page/setting_view.dart';
 import 'modules/sinus/sinus_view.dart';
 import 'modules/soredtounge/soredtounge.dart';
+import 'modules/user_dashboard/user-dashboard_view.dart';
 import 'modules/vomiting/vomiting.dart';
 import 'modules/wheezing/wheezing.dart';
 
@@ -34,7 +38,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: CheckupDetails(),
+      home: UserDashboard(),
     );
   }
 }
