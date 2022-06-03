@@ -2,6 +2,7 @@ import 'package:allobabyv2/modules/home/service/service.dart';
 import 'package:allobabyv2/modules/login/login_view.dart';
 import 'package:allobabyv2/modules/otp/otp_view.dart';
 import 'package:allobabyv2/modules/phone/phone_view.dart';
+import 'package:allobabyv2/modules/vitalsDetails/vitalsDetails.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -39,7 +40,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: UserDashboard(),
+      home: VitalsDetails(),
     );
   }
 }
