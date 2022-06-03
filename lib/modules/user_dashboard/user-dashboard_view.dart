@@ -724,6 +724,898 @@ class UserDashboard extends StatelessWidget {
               SizedBox(
                 height: 20,
               ),
+              Container(
+                width: size.width * 0.90,
+                height: size.height * 0.20,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: White,
+                  boxShadow: [
+                    BoxShadow(color: Black300, blurRadius: 5),
+                  ],
+                ),
+                child: Column(
+                  children: [
+                    ListTile(
+                      title: Text(
+                        Strings.sleepDuration,
+                        style: TextStylez.textStyleSmall,
+                      ),
+                      subtitle: Text(
+                        'Updated time 06.00 am',
+                        style: TextStylez.textStyleSmall.copyWith(fontSize: 14),
+                      ),
+                      trailing: Icon(
+                        Icons.navigate_next_outlined,
+                        size: 30,
+                        color: Black,
+                      ),
+                    ),
+                    Container(
+                      width: size.width * 0.90,
+                      child: Row(
+                        children: [
+                          SizedBox(
+                            width: 15,
+                          ),
+                          Column(
+                            children: [
+                              Text(
+                                '6h 30m',
+                                style: TextStylez.textStyleSmall,
+                              ),
+                              Text(
+                                'Archeivd',
+                                style: TextStylez.textStyleSmall
+                                    .copyWith(fontSize: 14),
+                              ),
+                            ],
+                          ),
+                          Spacer(),
+                          CircleAvatar(
+                            radius: 20,
+                            backgroundColor: PrimaryColor,
+                          ),
+                          SizedBox(
+                            width: 5,
+                          ),
+                          CircleAvatar(
+                            radius: 20,
+                            backgroundColor: PrimaryColor,
+                          ),
+                          SizedBox(
+                            width: 5,
+                          ),
+                          CircleAvatar(
+                            radius: 20,
+                            backgroundColor: PrimaryColor,
+                          ),
+                          SizedBox(
+                            width: 5,
+                          ),
+                          CircleAvatar(
+                            radius: 20,
+                            backgroundColor: PrimaryColor,
+                          ),
+                          SizedBox(
+                            width: 5,
+                          ),
+                          CircleAvatar(
+                            radius: 20,
+                            backgroundColor: PrimaryColor,
+                          ),
+                          SizedBox(
+                            width: 5,
+                          ),
+                        ],
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Container(
+                width: size.width * 0.90,
+                height: size.height * 0.20,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: White,
+                  boxShadow: [
+                    BoxShadow(color: Black300, blurRadius: 5),
+                  ],
+                ),
+                child: Column(
+                  children: [
+                    ListTile(
+                      title: Text(
+                        Strings.water,
+                        style: TextStylez.textStyleSmall,
+                      ),
+                      subtitle: Text(
+                        'Last updated on 06.00 am',
+                        style: TextStylez.textStyleSmall.copyWith(fontSize: 14),
+                      ),
+                      trailing: Icon(
+                        Icons.navigate_next_outlined,
+                        size: 30,
+                        color: Black,
+                      ),
+                    ),
+                    Container(
+                      width: size.width * 0.90,
+                      child: Row(
+                        children: [
+                          SizedBox(
+                            width: 15,
+                          ),
+                          Column(
+                            children: [
+                              Text(
+                                '4/10',
+                                style: TextStylez.textStyleSmall,
+                              ),
+                              Text(
+                                'Archeivd',
+                                style: TextStylez.textStyleSmall
+                                    .copyWith(fontSize: 14),
+                              ),
+                            ],
+                          ),
+                          Spacer(),
+                          CircleAvatar(
+                            radius: 20,
+                            backgroundColor: PrimaryColor,
+                          ),
+                          SizedBox(
+                            width: 5,
+                          ),
+                          CircleAvatar(
+                            radius: 20,
+                            backgroundColor: PrimaryColor,
+                          ),
+                          SizedBox(
+                            width: 5,
+                          ),
+                          CircleAvatar(
+                            radius: 20,
+                            backgroundColor: PrimaryColor,
+                          ),
+                          SizedBox(
+                            width: 5,
+                          ),
+                          CircleAvatar(
+                            radius: 20,
+                            backgroundColor: PrimaryColor,
+                          ),
+                          SizedBox(
+                            width: 5,
+                          ),
+                          CircleAvatar(
+                            radius: 20,
+                            backgroundColor: PrimaryColor,
+                          ),
+                          SizedBox(
+                            width: 5,
+                          ),
+                        ],
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Container(
+                width: size.width * 0.90,
+                height: size.height * 0.20,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: White,
+                  boxShadow: [
+                    BoxShadow(color: Black300, blurRadius: 5),
+                  ],
+                ),
+                child: Column(
+                  children: [
+                    ListTile(
+                      title: Text(
+                        Strings.medication,
+                        style: TextStylez.textStyleSmall,
+                      ),
+                      subtitle: Text(
+                        'Last updated time 06.00 am',
+                        style: TextStylez.textStyleSmall.copyWith(fontSize: 14),
+                      ),
+                      trailing: Icon(
+                        Icons.navigate_next_outlined,
+                        size: 30,
+                        color: Black,
+                      ),
+                    ),
+                    Container(
+                      width: size.width * 0.90,
+                      child: Row(
+                        children: [
+                          SizedBox(
+                            width: 15,
+                          ),
+                          Column(
+                            children: [
+                              Text(
+                                '2/3',
+                                style: TextStylez.textStyleSmall,
+                              ),
+                              Text(
+                                'Taken',
+                                style: TextStylez.textStyleSmall
+                                    .copyWith(fontSize: 14),
+                              ),
+                            ],
+                          ),
+                          Spacer(),
+                          CircleAvatar(
+                            radius: 20,
+                            backgroundColor: PrimaryColor,
+                          ),
+                          SizedBox(
+                            width: 5,
+                          ),
+                          CircleAvatar(
+                            radius: 20,
+                            backgroundColor: PrimaryColor,
+                          ),
+                          SizedBox(
+                            width: 5,
+                          ),
+                          CircleAvatar(
+                            radius: 20,
+                            backgroundColor: PrimaryColor,
+                          ),
+                          SizedBox(
+                            width: 5,
+                          ),
+                          CircleAvatar(
+                            radius: 20,
+                            backgroundColor: PrimaryColor,
+                          ),
+                          SizedBox(
+                            width: 5,
+                          ),
+                          CircleAvatar(
+                            radius: 20,
+                            backgroundColor: PrimaryColor,
+                          ),
+                          SizedBox(
+                            width: 5,
+                          ),
+                        ],
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Container(
+                width: size.width * 0.90,
+                height: size.height * 0.20,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: White,
+                  boxShadow: [
+                    BoxShadow(color: Black300, blurRadius: 5),
+                  ],
+                ),
+                child: Column(
+                  children: [
+                    ListTile(
+                      title: Text(
+                        Strings.bloodPressure,
+                        style: TextStylez.textStyleSmall,
+                      ),
+                      subtitle: Text(
+                        'Last updated time 06.00 am',
+                        style: TextStylez.textStyleSmall.copyWith(fontSize: 14),
+                      ),
+                      trailing: Icon(
+                        Icons.navigate_next_outlined,
+                        size: 30,
+                        color: Black,
+                      ),
+                    ),
+                    Container(
+                      width: size.width * 0.90,
+                      child: Row(
+                        children: [
+                          SizedBox(
+                            width: 15,
+                          ),
+                          Column(
+                            children: [
+                              Text(
+                                '120/90 mm/Hg',
+                                style: TextStylez.textStyleSmall,
+                              ),
+                              // Text(
+                              //   'Archeivd',
+                              //   style: TextStylez.textStyleSmall
+                              //       .copyWith(fontSize: 14),
+                              // ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Container(
+                width: size.width * 0.90,
+                height: size.height * 0.20,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: White,
+                  boxShadow: [
+                    BoxShadow(color: Black300, blurRadius: 5),
+                  ],
+                ),
+                child: Column(
+                  children: [
+                    ListTile(
+                      title: Text(
+                        Strings.weight,
+                        style: TextStylez.textStyleSmall,
+                      ),
+                      subtitle: Text(
+                        'Last updated time 06.00 am',
+                        style: TextStylez.textStyleSmall.copyWith(fontSize: 14),
+                      ),
+                      trailing: Icon(
+                        Icons.navigate_next_outlined,
+                        size: 30,
+                        color: Black,
+                      ),
+                    ),
+                    Container(
+                      width: size.width * 0.90,
+                      child: Row(
+                        children: [
+                          SizedBox(
+                            width: 15,
+                          ),
+                          Column(
+                            children: [
+                              Text(
+                                '60 kg',
+                                style: TextStylez.textStyleSmall,
+                              ),
+                              // Text(
+                              //   'Archeivd',
+                              //   style: TextStylez.textStyleSmall
+                              //       .copyWith(fontSize: 14),
+                              // ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Container(
+                width: size.width * 0.90,
+                height: size.height * 0.20,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: White,
+                  boxShadow: [
+                    BoxShadow(color: Black300, blurRadius: 5),
+                  ],
+                ),
+                child: Column(
+                  children: [
+                    ListTile(
+                      title: Text(
+                        Strings.height,
+                        style: TextStylez.textStyleSmall,
+                      ),
+                      subtitle: Text(
+                        'Last updated time 06.00 am',
+                        style: TextStylez.textStyleSmall.copyWith(fontSize: 14),
+                      ),
+                      trailing: Icon(
+                        Icons.navigate_next_outlined,
+                        size: 30,
+                        color: Black,
+                      ),
+                    ),
+                    Container(
+                      width: size.width * 0.90,
+                      child: Row(
+                        children: [
+                          SizedBox(
+                            width: 15,
+                          ),
+                          Column(
+                            children: [
+                              Text(
+                                '160 cm',
+                                style: TextStylez.textStyleSmall,
+                              ),
+                              // Text(
+                              //   'Archeivd',
+                              //   style: TextStylez.textStyleSmall
+                              //       .copyWith(fontSize: 14),
+                              // ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Container(
+                width: size.width * 0.90,
+                height: size.height * 0.20,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: White,
+                  boxShadow: [
+                    BoxShadow(color: Black300, blurRadius: 5),
+                  ],
+                ),
+                child: Column(
+                  children: [
+                    ListTile(
+                      title: Text(
+                        Strings.bmi,
+                        style: TextStylez.textStyleSmall,
+                      ),
+                      subtitle: Text(
+                        'Last updated time 06.00 am',
+                        style: TextStylez.textStyleSmall.copyWith(fontSize: 14),
+                      ),
+                      trailing: Icon(
+                        Icons.navigate_next_outlined,
+                        size: 30,
+                        color: Black,
+                      ),
+                    ),
+                    Container(
+                      width: size.width * 0.90,
+                      child: Row(
+                        children: [
+                          SizedBox(
+                            width: 15,
+                          ),
+                          Column(
+                            children: [
+                              Text(
+                                '25',
+                                style: TextStylez.textStyleSmall,
+                              ),
+                              // Text(
+                              //   'Archeivd',
+                              //   style: TextStylez.textStyleSmall
+                              //       .copyWith(fontSize: 14),
+                              // ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Container(
+                width: size.width * 0.90,
+                height: size.height * 0.20,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: White,
+                  boxShadow: [
+                    BoxShadow(color: Black300, blurRadius: 5),
+                  ],
+                ),
+                child: Column(
+                  children: [
+                    ListTile(
+                      title: Text(
+                        Strings.bodyTemperature,
+                        style: TextStylez.textStyleSmall,
+                      ),
+                      subtitle: Text(
+                        'Last updated time 06.00 am',
+                        style: TextStylez.textStyleSmall.copyWith(fontSize: 14),
+                      ),
+                      trailing: Icon(
+                        Icons.navigate_next_outlined,
+                        size: 30,
+                        color: Black,
+                      ),
+                    ),
+                    Container(
+                      width: size.width * 0.90,
+                      child: Row(
+                        children: [
+                          SizedBox(
+                            width: 15,
+                          ),
+                          Column(
+                            children: [
+                              Text(
+                                '97.3 F',
+                                style: TextStylez.textStyleSmall,
+                              ),
+                              // Text(
+                              //   'Archeivd',
+                              //   style: TextStylez.textStyleSmall
+                              //       .copyWith(fontSize: 14),
+                              // ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Container(
+                width: size.width * 0.90,
+                height: size.height * 0.20,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: White,
+                  boxShadow: [
+                    BoxShadow(color: Black300, blurRadius: 5),
+                  ],
+                ),
+                child: Column(
+                  children: [
+                    ListTile(
+                      title: Text(
+                        Strings.bloodSaturation,
+                        style: TextStylez.textStyleSmall,
+                      ),
+                      subtitle: Text(
+                        'Last updated time 06.00 am',
+                        style: TextStylez.textStyleSmall.copyWith(fontSize: 14),
+                      ),
+                      trailing: Icon(
+                        Icons.navigate_next_outlined,
+                        size: 30,
+                        color: Black,
+                      ),
+                    ),
+                    Container(
+                      width: size.width * 0.90,
+                      child: Row(
+                        children: [
+                          SizedBox(
+                            width: 15,
+                          ),
+                          Column(
+                            children: [
+                              Text(
+                                '99%',
+                                style: TextStylez.textStyleSmall,
+                              ),
+                              // Text(
+                              //   'Archeivd',
+                              //   style: TextStylez.textStyleSmall
+                              //       .copyWith(fontSize: 14),
+                              // ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Container(
+                width: size.width * 0.90,
+                height: size.height * 0.20,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: White,
+                  boxShadow: [
+                    BoxShadow(color: Black300, blurRadius: 5),
+                  ],
+                ),
+                child: Column(
+                  children: [
+                    ListTile(
+                      title: Text(
+                        Strings.heartRate,
+                        style: TextStylez.textStyleSmall,
+                      ),
+                      subtitle: Text(
+                        'Last updated time 06.00 am',
+                        style: TextStylez.textStyleSmall.copyWith(fontSize: 14),
+                      ),
+                      trailing: Icon(
+                        Icons.navigate_next_outlined,
+                        size: 30,
+                        color: Black,
+                      ),
+                    ),
+                    Container(
+                      width: size.width * 0.90,
+                      child: Row(
+                        children: [
+                          SizedBox(
+                            width: 15,
+                          ),
+                          Column(
+                            children: [
+                              Text(
+                                '72bpm',
+                                style: TextStylez.textStyleSmall,
+                              ),
+                              // Text(
+                              //   'Archeivd',
+                              //   style: TextStylez.textStyleSmall
+                              //       .copyWith(fontSize: 14),
+                              // ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Container(
+                width: size.width * 0.90,
+                height: size.height * 0.20,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: White,
+                  boxShadow: [
+                    BoxShadow(color: Black300, blurRadius: 5),
+                  ],
+                ),
+                child: Column(
+                  children: [
+                    ListTile(
+                      title: Text(
+                        Strings.bloodSugar,
+                        style: TextStylez.textStyleSmall,
+                      ),
+                      subtitle: Text(
+                        'Last updated time 06.00 am',
+                        style: TextStylez.textStyleSmall.copyWith(fontSize: 14),
+                      ),
+                      trailing: Icon(
+                        Icons.navigate_next_outlined,
+                        size: 30,
+                        color: Black,
+                      ),
+                    ),
+                    Container(
+                      width: size.width * 0.90,
+                      child: Row(
+                        children: [
+                          SizedBox(
+                            width: 15,
+                          ),
+                          Column(
+                            children: [
+                              Text(
+                                '140 mg/Dl',
+                                style: TextStylez.textStyleSmall,
+                              ),
+                              // Text(
+                              //   'Archeivd',
+                              //   style: TextStylez.textStyleSmall
+                              //       .copyWith(fontSize: 14),
+                              // ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Container(
+                width: size.width * 0.90,
+                height: size.height * 0.20,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: White,
+                  boxShadow: [
+                    BoxShadow(color: Black300, blurRadius: 5),
+                  ],
+                ),
+                child: Column(
+                  children: [
+                    ListTile(
+                      title: Text(
+                        Strings.heartRateVariality,
+                        style: TextStylez.textStyleSmall,
+                      ),
+                      subtitle: Text(
+                        'No Recent Data',
+                        style: TextStylez.textStyleSmall.copyWith(fontSize: 14),
+                      ),
+                      trailing: Icon(
+                        Icons.navigate_next_outlined,
+                        size: 30,
+                        color: Black,
+                      ),
+                    ),
+                    Container(
+                      width: size.width * 0.90,
+                      child: Row(
+                        children: [
+                          SizedBox(
+                            width: 15,
+                          ),
+                          Column(
+                            children: [
+                              Text(
+                                'NA',
+                                style: TextStylez.textStyleSmall,
+                              ),
+                              // Text(
+                              //   'Archeivd',
+                              //   style: TextStylez.textStyleSmall
+                              //       .copyWith(fontSize: 14),
+                              // ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Container(
+                width: size.width * 0.90,
+                height: size.height * 0.20,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: White,
+                  boxShadow: [
+                    BoxShadow(color: Black300, blurRadius: 5),
+                  ],
+                ),
+                child: Column(
+                  children: [
+                    ListTile(
+                      title: Text(
+                        Strings.respirationRate,
+                        style: TextStylez.textStyleSmall,
+                      ),
+                      subtitle: Text(
+                        'No Recent Data',
+                        style: TextStylez.textStyleSmall.copyWith(fontSize: 14),
+                      ),
+                      trailing: Icon(
+                        Icons.navigate_next_outlined,
+                        size: 30,
+                        color: Black,
+                      ),
+                    ),
+                    Container(
+                      width: size.width * 0.90,
+                      child: Row(
+                        children: [
+                          SizedBox(
+                            width: 15,
+                          ),
+                          Column(
+                            children: [
+                              Text(
+                                'NA',
+                                style: TextStylez.textStyleSmall,
+                              ),
+                              // Text(
+                              //   'Archeivd',
+                              //   style: TextStylez.textStyleSmall
+                              //       .copyWith(fontSize: 14),
+                              // ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Container(
+                width: size.width * 0.90,
+                height: size.height * 0.20,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: White,
+                  boxShadow: [
+                    BoxShadow(color: Black300, blurRadius: 5),
+                  ],
+                ),
+                child: Column(
+                  children: [
+                    ListTile(
+                      title: Text(
+                        Strings.ecg,
+                        style: TextStylez.textStyleSmall,
+                      ),
+                      subtitle: Text(
+                        'No Recent Data',
+                        style: TextStylez.textStyleSmall.copyWith(fontSize: 14),
+                      ),
+                      trailing: Icon(
+                        Icons.navigate_next_outlined,
+                        size: 30,
+                        color: Black,
+                      ),
+                    ),
+                    Container(
+                      width: size.width * 0.90,
+                      child: Row(
+                        children: [
+                          SizedBox(
+                            width: 15,
+                          ),
+                          Column(
+                            children: [
+                              Text(
+                                '160 cm',
+                                style: TextStylez.textStyleSmall,
+                              ),
+                              // Text(
+                              //   'Archeivd',
+                              //   style: TextStylez.textStyleSmall
+                              //       .copyWith(fontSize: 14),
+                              // ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
             ],
           ),
         ),
