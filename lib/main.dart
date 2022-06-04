@@ -17,6 +17,8 @@ import 'modules/home/checkup/checkupList_view.dart';
 import 'modules/home/home_view.dart';
 
 import 'modules/home/pregnancyStatus.dart';
+import 'modules/others/doctorList1.dart';
+import 'modules/others/reportList.dart';
 import 'modules/setting_page/edit_profile_view.dart';
 import 'modules/setting_page/language_view.dart';
 import 'modules/setting_page/notification_view.dart';
@@ -42,7 +44,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ChatWithCareGiver(),
+      home: UserDashboard(),
     );
   }
 }

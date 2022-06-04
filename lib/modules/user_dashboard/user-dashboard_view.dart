@@ -424,44 +424,127 @@ class UserDashboard extends StatelessWidget {
               SizedBox(
                 height: 20,
               ),
-              Container(
-                height: size.height / 5,
-                width: size.width * 0.90,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10),
-                  color: White,
-                  boxShadow: [
-                    BoxShadow(color: Black300, blurRadius: 5),
-                  ],
-                ),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Row(
-                      children: [
-                        SizedBox(
-                          width: 25,
+              InkWell(
+                onTap: () {
+                  Get.bottomSheet(
+                    Container(
+                      child: Container(
+                        height: size.height / 3,
+                        color: White,
+                        child: Column(
+                          children: [
+                            SizedBox(
+                              height: 30,
+                            ),
+                            Text(
+                              'How you feeling today ?',
+                              style: TextStylez.textStyleSmall,
+                            ),
+                            SizedBox(
+                              height: 30,
+                            ),
+                            Row(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children: [
+                                Column(
+                                  children: [
+                                    CircleAvatar(
+                                      radius: 30,
+                                    ),
+                                    SizedBox(height: 20),
+                                    Text("Good")
+                                  ],
+                                ),
+                                Column(
+                                  children: [
+                                    CircleAvatar(
+                                      radius: 30,
+                                    ),
+                                    SizedBox(height: 20),
+                                    Text("Happy")
+                                  ],
+                                ),
+                                Column(
+                                  children: [
+                                    CircleAvatar(
+                                      radius: 30,
+                                    ),
+                                    SizedBox(height: 20),
+                                    Text("Cool")
+                                  ],
+                                ),
+                                Column(
+                                  children: [
+                                    CircleAvatar(
+                                      radius: 30,
+                                    ),
+                                    SizedBox(height: 20),
+                                    Text("Angry")
+                                  ],
+                                ),
+                              ],
+                            ),
+                            Spacer(),
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.end,
+                              children: [
+                                ElevatedButton(
+                                    style: ElevatedButton.styleFrom(
+                                        minimumSize: Size(100, 30),
+                                        primary: PrimaryColor,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius:
+                                                BorderRadius.circular(30))),
+                                    onPressed: () {},
+                                    child: Text("Next >")),
+                              ],
+                            )
+                          ],
                         ),
-                        Text(
-                          Strings.mood,
-                          style: TextStylez.textStyleSmall,
-                        ),
-                      ],
+                      ),
                     ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: [
-                        Icon(
-                          Icons.face_outlined,
-                          size: 100,
-                        ),
-                        Icon(
-                          Icons.face_outlined,
-                          size: 100,
-                        ),
-                      ],
-                    ),
-                  ],
+                  );
+                },
+                child: Container(
+                  height: size.height / 5,
+                  width: size.width * 0.90,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10),
+                    color: White,
+                    boxShadow: [
+                      BoxShadow(color: Black300, blurRadius: 5),
+                    ],
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        children: [
+                          SizedBox(
+                            width: 25,
+                          ),
+                          Text(
+                            Strings.mood,
+                            style: TextStylez.textStyleSmall,
+                          ),
+                        ],
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          Icon(
+                            Icons.face_outlined,
+                            size: 100,
+                          ),
+                          Icon(
+                            Icons.face_outlined,
+                            size: 100,
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
                 ),
               ),
               SizedBox(
@@ -632,93 +715,156 @@ class UserDashboard extends StatelessWidget {
               SizedBox(
                 height: 20,
               ),
-              Container(
-                width: size.width * 0.90,
-                height: size.height * 0.20,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10),
-                  color: White,
-                  boxShadow: [
-                    BoxShadow(color: Black300, blurRadius: 5),
-                  ],
-                ),
-                child: Column(
-                  children: [
-                    ListTile(
-                      title: Text(
-                        Strings.exercise,
-                        style: TextStylez.textStyleSmall,
-                      ),
-                      subtitle: Text(
-                        'Updated on',
-                        style: TextStylez.textStyleSmall.copyWith(fontSize: 14),
-                      ),
-                      trailing: Icon(
-                        Icons.navigate_next_outlined,
-                        size: 30,
-                        color: Black,
+              InkWell(
+                onTap: () {
+                  Get.bottomSheet(
+                    Container(
+                      child: Container(
+                        height: size.height / 3,
+                        color: White,
+                        child: Column(
+                          children: [
+                            SizedBox(
+                              height: 30,
+                            ),
+                            Text(
+                              'Have ypu done Exercise ?',
+                              style: TextStylez.textStyleSmall,
+                            ),
+                            SizedBox(
+                              height: 30,
+                            ),
+                            Row(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children: [
+                                CircleAvatar(
+                                  radius: 30,
+                                ),
+                                CircleAvatar(
+                                  radius: 30,
+                                ),
+                                CircleAvatar(
+                                  radius: 30,
+                                ),
+                                CircleAvatar(
+                                  radius: 30,
+                                ),
+                                CircleAvatar(
+                                  radius: 30,
+                                ),
+                              ],
+                            ),
+                            Spacer(),
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.end,
+                              children: [
+                                ElevatedButton(
+                                    style: ElevatedButton.styleFrom(
+                                        minimumSize: Size(100, 30),
+                                        primary: PrimaryColor,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius:
+                                                BorderRadius.circular(30))),
+                                    onPressed: () {},
+                                    child: Text("Next >")),
+                              ],
+                            )
+                          ],
+                        ),
                       ),
                     ),
-                    Container(
-                      width: size.width * 0.90,
-                      child: Row(
-                        children: [
-                          SizedBox(
-                            width: 15,
-                          ),
-                          Column(
-                            children: [
-                              Text(
-                                '2/5',
-                                style: TextStylez.textStyleSmall,
-                              ),
-                              Text(
-                                'Archeivd',
-                                style: TextStylez.textStyleSmall
-                                    .copyWith(fontSize: 14),
-                              ),
-                            ],
-                          ),
-                          Spacer(),
-                          CircleAvatar(
-                            radius: 20,
-                            backgroundColor: PrimaryColor,
-                          ),
-                          SizedBox(
-                            width: 5,
-                          ),
-                          CircleAvatar(
-                            radius: 20,
-                            backgroundColor: PrimaryColor,
-                          ),
-                          SizedBox(
-                            width: 5,
-                          ),
-                          CircleAvatar(
-                            radius: 20,
-                            backgroundColor: PrimaryColor,
-                          ),
-                          SizedBox(
-                            width: 5,
-                          ),
-                          CircleAvatar(
-                            radius: 20,
-                            backgroundColor: PrimaryColor,
-                          ),
-                          SizedBox(
-                            width: 5,
-                          ),
-                          CircleAvatar(
-                            radius: 20,
-                            backgroundColor: PrimaryColor,
-                          ),
-                          SizedBox(
-                            width: 5,
-                          ),
-                        ],
+                  );
+                },
+                child: Container(
+                  width: size.width * 0.90,
+                  height: size.height * 0.20,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10),
+                    color: White,
+                    boxShadow: [
+                      BoxShadow(color: Black300, blurRadius: 5),
+                    ],
+                  ),
+                  child: Column(
+                    children: [
+                      ListTile(
+                        title: Text(
+                          Strings.exercise,
+                          style: TextStylez.textStyleSmall,
+                        ),
+                        subtitle: Text(
+                          'Updated on',
+                          style:
+                              TextStylez.textStyleSmall.copyWith(fontSize: 14),
+                        ),
+                        trailing: Icon(
+                          Icons.navigate_next_outlined,
+                          size: 30,
+                          color: Black,
+                        ),
                       ),
-                    )
-                  ],
+                      Container(
+                        width: size.width * 0.90,
+                        child: Row(
+                          children: [
+                            SizedBox(
+                              width: 15,
+                            ),
+                            Column(
+                              children: [
+                                Text(
+                                  '2/5',
+                                  style: TextStylez.textStyleSmall,
+                                ),
+                                Text(
+                                  'Archeivd',
+                                  style: TextStylez.textStyleSmall
+                                      .copyWith(fontSize: 14),
+                                ),
+                              ],
+                            ),
+                            Spacer(),
+                            CircleAvatar(
+                              radius: 20,
+                              backgroundColor: PrimaryColor,
+                            ),
+                            SizedBox(
+                              width: 5,
+                            ),
+                            CircleAvatar(
+                              radius: 20,
+                              backgroundColor: PrimaryColor,
+                            ),
+                            SizedBox(
+                              width: 5,
+                            ),
+                            CircleAvatar(
+                              radius: 20,
+                              backgroundColor: PrimaryColor,
+                            ),
+                            SizedBox(
+                              width: 5,
+                            ),
+                            CircleAvatar(
+                              radius: 20,
+                              backgroundColor: PrimaryColor,
+                            ),
+                            SizedBox(
+                              width: 5,
+                            ),
+                            CircleAvatar(
+                              radius: 20,
+                              backgroundColor: PrimaryColor,
+                            ),
+                            SizedBox(
+                              width: 5,
+                            ),
+                          ],
+                        ),
+                      )
+                    ],
+                  ),
                 ),
               ),
               SizedBox(
