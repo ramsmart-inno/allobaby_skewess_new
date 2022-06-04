@@ -552,7 +552,64 @@ class BookAppoinment extends StatelessWidget {
                                                                                     Container(
                                                                                       height: 30,
                                                                                       width: 160,
-                                                                                      child: ElevatedButton(style: ElevatedButton.styleFrom(primary: PrimaryColor), onPressed: () {}, child: Text('Online Payment')),
+                                                                                      child: ElevatedButton(
+                                                                                          style: ElevatedButton.styleFrom(primary: PrimaryColor),
+                                                                                          onPressed: () {
+                                                                                            Get.bottomSheet(
+                                                                                                isScrollControlled: true,
+                                                                                                Container(
+                                                                                                  width: size.width,
+                                                                                                  height: size.height - 100,
+                                                                                                  //color: White,
+                                                                                                  decoration: BoxDecoration(
+                                                                                                    color: White,
+                                                                                                    borderRadius: BorderRadius.only(topLeft: Radius.circular(30), topRight: Radius.circular(30)),
+                                                                                                  ),
+                                                                                                  child: Column(
+                                                                                                    children: [
+                                                                                                      SizedBox(
+                                                                                                        height: 25,
+                                                                                                      ),
+                                                                                                      Text(
+                                                                                                        Strings.onlinePayment,
+                                                                                                        style: TextStylez.textStyleSmall,
+                                                                                                      ),
+                                                                                                      SizedBox(
+                                                                                                        height: 35,
+                                                                                                      ),
+                                                                                                      Container(
+                                                                                                        width: size.width * 0.90,
+                                                                                                        child: Column(
+                                                                                                          children: [
+                                                                                                            Text(Strings.paymentMethod),
+                                                                                                            SizedBox(
+                                                                                                              height: 20,
+                                                                                                            ),
+                                                                                                            Row(
+                                                                                                              children: [
+                                                                                                                Container(
+                                                                                                                  height: 35,
+                                                                                                                  width: 120,
+                                                                                                                  color: PrimaryColor,
+                                                                                                                ),
+                                                                                                                SizedBox(
+                                                                                                                  width: 15,
+                                                                                                                ),
+                                                                                                                Container(
+                                                                                                                  height: 35,
+                                                                                                                  width: 120,
+                                                                                                                  color: PrimaryColor,
+                                                                                                                )
+                                                                                                              ],
+                                                                                                            )
+                                                                                                          ],
+                                                                                                        ),
+                                                                                                      )
+                                                                                                    ],
+                                                                                                  ),
+                                                                                                ));
+                                                                                          },
+                                                                                          child: Text('Online Payment')),
                                                                                     ),
                                                                                   ],
                                                                                 ),

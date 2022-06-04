@@ -12,17 +12,21 @@ import 'modules/community/com-Invite_view.dart';
 import 'modules/community/com-mom.dart';
 
 import 'modules/home/chat/chatWithCareGiver_view.dart';
+import 'modules/home/chat/direct-Ai_Chat_view.dart';
+import 'modules/home/chat/direct-Doctor-Chat_view.dart';
 import 'modules/home/checkup/checkupDetails_view.dart';
 import 'modules/home/checkup/checkupList_view.dart';
 import 'modules/home/home_view.dart';
 
 import 'modules/home/pregnancyStatus.dart';
+import 'modules/others-1/address-Details_view.dart';
 import 'modules/setting_page/edit_profile_view.dart';
 import 'modules/setting_page/language_view.dart';
 import 'modules/setting_page/notification_view.dart';
 import 'modules/setting_page/setting_view.dart';
 import 'modules/sinus/sinus_view.dart';
 import 'modules/soredtounge/soredtounge.dart';
+import 'modules/summary/summary_view.dart';
 import 'modules/user_dashboard/user-dashboard_view.dart';
 import 'modules/user_dashboard/user-signup_view.dart';
 import 'modules/vomiting/vomiting.dart';
@@ -42,7 +46,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ChatWithCareGiver(),
+      home: BookAppoinment(),
     );
   }
 }

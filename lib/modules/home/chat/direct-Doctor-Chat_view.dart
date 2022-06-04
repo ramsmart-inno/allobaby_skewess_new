@@ -5,8 +5,8 @@ import '../../../constants/colors.dart';
 import '../../../constants/strings.dart';
 import '../../../constants/styles.dart';
 
-class ChatWithCareGiver extends StatelessWidget {
-  const ChatWithCareGiver({Key? key}) : super(key: key);
+class DoctorChat extends StatelessWidget {
+  const DoctorChat({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -58,7 +58,7 @@ class ChatWithCareGiver extends StatelessWidget {
                 child: Row(
                   children: [
                     Text(
-                      Strings.careGiver,
+                      Strings.doctorChat,
                       style: TextStylez.textStyleSmall,
                     )
                   ],

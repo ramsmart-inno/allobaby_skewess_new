@@ -76,7 +76,7 @@ class Strings {
   static String bmi = "BMI";
   static String bodyOxygen = "Body Oxygen";
   static String temperature = "Temperature";
-  static String heartBeat = "Heart Rate";
+  static String heartBeat = "Heart Beat";
   static String bodyTemperature = "Body Temperature";
   static String bloodGlucose = "Blood Glucose";
   static String bloodSaturation = "Blood Saturation";
