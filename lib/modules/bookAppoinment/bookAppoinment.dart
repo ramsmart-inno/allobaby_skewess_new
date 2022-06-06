@@ -565,47 +565,212 @@ class BookAppoinment extends StatelessWidget {
                                                                                                     color: White,
                                                                                                     borderRadius: BorderRadius.only(topLeft: Radius.circular(30), topRight: Radius.circular(30)),
                                                                                                   ),
-                                                                                                  child: Column(
-                                                                                                    children: [
-                                                                                                      SizedBox(
-                                                                                                        height: 25,
-                                                                                                      ),
-                                                                                                      Text(
-                                                                                                        Strings.onlinePayment,
-                                                                                                        style: TextStylez.textStyleSmall,
-                                                                                                      ),
-                                                                                                      SizedBox(
-                                                                                                        height: 35,
-                                                                                                      ),
-                                                                                                      Container(
-                                                                                                        width: size.width * 0.90,
-                                                                                                        child: Column(
-                                                                                                          children: [
-                                                                                                            Text(Strings.paymentMethod),
-                                                                                                            SizedBox(
-                                                                                                              height: 20,
-                                                                                                            ),
-                                                                                                            Row(
+                                                                                                  child: Center(
+                                                                                                    child: Container(
+                                                                                                      width: size.width * 0.90,
+                                                                                                      child: Column(
+                                                                                                        children: [
+                                                                                                          SizedBox(
+                                                                                                            height: 25,
+                                                                                                          ),
+                                                                                                          Text(
+                                                                                                            Strings.onlinePayment,
+                                                                                                            style: TextStylez.textStyleSmall,
+                                                                                                          ),
+                                                                                                          SizedBox(
+                                                                                                            height: 35,
+                                                                                                          ),
+                                                                                                          Container(
+                                                                                                            width: size.width * 0.95,
+                                                                                                            child: Column(
+                                                                                                              crossAxisAlignment: CrossAxisAlignment.start,
                                                                                                               children: [
-                                                                                                                Container(
-                                                                                                                  height: 35,
-                                                                                                                  width: 120,
-                                                                                                                  color: PrimaryColor,
+                                                                                                                Text(
+                                                                                                                  Strings.paymentMethod,
+                                                                                                                  style: TextStylez.textStyleSmall,
                                                                                                                 ),
                                                                                                                 SizedBox(
-                                                                                                                  width: 15,
+                                                                                                                  height: 20,
                                                                                                                 ),
-                                                                                                                Container(
-                                                                                                                  height: 35,
-                                                                                                                  width: 120,
-                                                                                                                  color: PrimaryColor,
+                                                                                                                Row(
+                                                                                                                  children: [
+                                                                                                                    Container(
+                                                                                                                      height: 35,
+                                                                                                                      width: 95,
+                                                                                                                      color: PrimaryColor,
+                                                                                                                    ),
+                                                                                                                    SizedBox(
+                                                                                                                      width: 15,
+                                                                                                                    ),
+                                                                                                                    Container(
+                                                                                                                      height: 35,
+                                                                                                                      width: 95,
+                                                                                                                      color: PrimaryColor,
+                                                                                                                    ),
+                                                                                                                    SizedBox(
+                                                                                                                      width: 15,
+                                                                                                                    ),
+                                                                                                                    Container(
+                                                                                                                      height: 35,
+                                                                                                                      width: 95,
+                                                                                                                      color: PrimaryColor,
+                                                                                                                    )
+                                                                                                                  ],
                                                                                                                 )
                                                                                                               ],
-                                                                                                            )
-                                                                                                          ],
-                                                                                                        ),
-                                                                                                      )
-                                                                                                    ],
+                                                                                                            ),
+                                                                                                          ),
+                                                                                                          SizedBox(
+                                                                                                            height: 15,
+                                                                                                          ),
+                                                                                                          Container(
+                                                                                                            width: size.width * 0.95,
+                                                                                                            child: Column(
+                                                                                                              crossAxisAlignment: CrossAxisAlignment.start,
+                                                                                                              children: [
+                                                                                                                Text(
+                                                                                                                  Strings.cardDetails,
+                                                                                                                  style: TextStylez.textStyleSmall,
+                                                                                                                ),
+                                                                                                                SizedBox(
+                                                                                                                  height: 5,
+                                                                                                                ),
+                                                                                                                Container(
+                                                                                                                  width: size.width,
+                                                                                                                  height: 270,
+                                                                                                                  decoration: BoxDecoration(
+                                                                                                                      borderRadius: BorderRadius.all(Radius.circular(5.0)),
+                                                                                                                      border: Border.all(
+                                                                                                                        color: Black300,
+                                                                                                                      )),
+                                                                                                                  //color: Colors.grey,
+                                                                                                                  child: Column(
+                                                                                                                    children: [
+                                                                                                                      Container(
+                                                                                                                        width: size.width * 0.95,
+                                                                                                                        height: 50,
+                                                                                                                        decoration: BoxDecoration(
+                                                                                                                          color: Black300,
+                                                                                                                          borderRadius: BorderRadius.only(topLeft: Radius.circular(3.0), topRight: Radius.circular(3.0)),
+                                                                                                                        ),
+                                                                                                                        //color: Colors.grey,
+                                                                                                                      ),
+                                                                                                                      SizedBox(
+                                                                                                                        height: 10,
+                                                                                                                      ),
+                                                                                                                      Container(
+                                                                                                                        width: size.width * 0.90,
+                                                                                                                        child: Column(
+                                                                                                                          crossAxisAlignment: CrossAxisAlignment.start,
+                                                                                                                          children: [
+                                                                                                                            Text(Strings.cardNumber),
+                                                                                                                            Row(
+                                                                                                                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                                                                                                              children: [
+                                                                                                                                Container(
+                                                                                                                                  height: 35,
+                                                                                                                                  width: 75,
+                                                                                                                                  color: PrimaryColor,
+                                                                                                                                ),
+                                                                                                                                SizedBox(
+                                                                                                                                  width: 5,
+                                                                                                                                ),
+                                                                                                                                Container(
+                                                                                                                                  height: 35,
+                                                                                                                                  width: 75,
+                                                                                                                                  color: PrimaryColor,
+                                                                                                                                ),
+                                                                                                                                SizedBox(
+                                                                                                                                  width: 5,
+                                                                                                                                ),
+                                                                                                                                Container(
+                                                                                                                                  height: 35,
+                                                                                                                                  width: 75,
+                                                                                                                                  color: PrimaryColor,
+                                                                                                                                ),
+                                                                                                                                SizedBox(
+                                                                                                                                  width: 5,
+                                                                                                                                ),
+                                                                                                                                Container(
+                                                                                                                                  height: 35,
+                                                                                                                                  width: 75,
+                                                                                                                                  color: PrimaryColor,
+                                                                                                                                )
+                                                                                                                              ],
+                                                                                                                            ),
+                                                                                                                            SizedBox(
+                                                                                                                              height: 10,
+                                                                                                                            ),
+                                                                                                                            Row(
+                                                                                                                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                                                                                                              children: [
+                                                                                                                                Column(
+                                                                                                                                  children: [
+                                                                                                                                    Text(Strings.validDate),
+                                                                                                                                    SizedBox(
+                                                                                                                                      height: 5,
+                                                                                                                                    ),
+                                                                                                                                    Container(
+                                                                                                                                      height: 35,
+                                                                                                                                      width: 105,
+                                                                                                                                      color: PrimaryColor,
+                                                                                                                                    ),
+                                                                                                                                  ],
+                                                                                                                                ),
+                                                                                                                                SizedBox(
+                                                                                                                                  width: 5,
+                                                                                                                                ),
+                                                                                                                                Column(
+                                                                                                                                  children: [
+                                                                                                                                    Text(Strings.cvv),
+                                                                                                                                    SizedBox(
+                                                                                                                                      height: 5,
+                                                                                                                                    ),
+                                                                                                                                    Container(
+                                                                                                                                      height: 35,
+                                                                                                                                      width: 105,
+                                                                                                                                      color: PrimaryColor,
+                                                                                                                                    ),
+                                                                                                                                  ],
+                                                                                                                                ),
+                                                                                                                              ],
+                                                                                                                            ),
+                                                                                                                            SizedBox(
+                                                                                                                              height: 5,
+                                                                                                                            ),
+                                                                                                                            Column(
+                                                                                                                              crossAxisAlignment: CrossAxisAlignment.start,
+                                                                                                                              children: [
+                                                                                                                                Text(Strings.cardHolderName),
+                                                                                                                                //  SizedBox(
+                                                                                                                                //   height: 5,
+                                                                                                                                // ),
+                                                                                                                                SizedBox(
+                                                                                                                                  height: 40,
+                                                                                                                                  child: Padding(
+                                                                                                                                    padding: const EdgeInsets.symmetric(horizontal: 10),
+                                                                                                                                    child: TextFormField(
+                                                                                                                                      decoration: InputDecoration(
+                                                                                                                                        border: OutlineInputBorder(),
+                                                                                                                                      ),
+                                                                                                                                    ),
+                                                                                                                                  ),
+                                                                                                                                )
+                                                                                                                              ],
+                                                                                                                            )
+                                                                                                                          ],
+                                                                                                                        ),
+                                                                                                                      )
+                                                                                                                    ],
+                                                                                                                  ),
+                                                                                                                )
+                                                                                                              ],
+                                                                                                            ),
+                                                                                                          ),
+                                                                                                          ElevatedButton(onPressed: (() {}), style: ElevatedButton.styleFrom(primary: PrimaryColor, minimumSize: Size(200, 35)), child: Text(Strings.confirmPay))
+                                                                                                        ],
+                                                                                                      ),
+                                                                                                    ),
                                                                                                   ),
                                                                                                 ));
                                                                                           },

@@ -20,6 +20,11 @@ import 'modules/home/home_view.dart';
 
 import 'modules/home/pregnancyStatus.dart';
 import 'modules/others-1/address-Details_view.dart';
+import 'modules/others-1/confirm-partner_view.dart';
+import 'modules/others-1/connect-with-doctor_view.dart';
+import 'modules/others-1/help-and-feedback_view.dart';
+import 'modules/others-1/help-line_view.dart';
+import 'modules/others-1/my-appointment_view.dart';
 import 'modules/setting_page/edit_profile_view.dart';
 import 'modules/setting_page/language_view.dart';
 import 'modules/setting_page/notification_view.dart';
@@ -46,6 +51,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: BookAppoinment());
+        home: Upcoming());
   }
 }
