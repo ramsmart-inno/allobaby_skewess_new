@@ -6,6 +6,7 @@ import 'package:allobabyv2/modules/vitalsDetails/vitalsDetails.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import 'modules/about.dart';
 import 'modules/bookAppoinment/bookAppoinment.dart';
 import 'modules/bookAppoinment/doctorList.dart';
 import 'modules/community/com-Invite_view.dart';
@@ -31,6 +32,7 @@ import 'modules/setting_page/notification_view.dart';
 import 'modules/setting_page/setting_view.dart';
 import 'modules/sinus/sinus_view.dart';
 import 'modules/soredtounge/soredtounge.dart';
+import 'modules/splashScreen.dart';
 import 'modules/summary/summary_view.dart';
 import 'modules/user_dashboard/user-dashboard_view.dart';
 import 'modules/user_dashboard/user-signup_view.dart';
@@ -51,6 +53,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: Upcoming());
+        home: SplashScreen());
   }
 }
